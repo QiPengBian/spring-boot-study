@@ -36,18 +36,18 @@ public class SpringBoot05MybatisPlusApplicationTest {
     @Test
     void contextLoads() {
         List<User> userList = userService.list();
-        userList.forEach(System.out::print);
+        userList.forEach(System.out::println);
     }
 
     @Test
     void userRoleTest() {
         List<UserRole> userRoleList = userRoleService.list();
-        userRoleList.forEach(System.out::print);
+        userRoleList.forEach(System.out::println);
     }
 
     @Test
     void permissionServiceTest() {
         List<Permission> permissionList = permissionService.list();
-        permissionList.forEach(System.out::print);
+        permissionList.forEach(System.out::println);
     }
 }
