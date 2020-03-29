@@ -20,6 +20,8 @@
         <module>spring-boot-03-properties</module>
         <module>spring-boot-04-exception</module>
         <module>spring-boot-05-mybatis-plus</module>
+        <module>spring-boot-06-seata</module>
+        <module>spring-boot-07-sharding-sphere</module>
     </modules>
 
     <properties>
