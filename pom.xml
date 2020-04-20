@@ -22,6 +22,7 @@
         <module>spring-boot-05-mybatis-plus</module>
         <module>spring-boot-06-seata</module>
         <module>spring-boot-07-sharding-sphere</module>
+        <module>spring-boot-08-elasticsearch</module>
     </modules>
 
     <properties>
